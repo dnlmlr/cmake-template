@@ -10,8 +10,8 @@ endif ()
 project(my-project)
 
 # Configure project files
-file(GLOB_RECURSE SRC_FILES "src/*.cpp")
-file(GLOB_RECURSE HEADER_FILES "inc/*.hpp")
+file(GLOB_RECURSE SRC_FILES "src/*.cpp" "src/*.c")
+file(GLOB_RECURSE HEADER_FILES "inc/*.hpp" "inc/*.h")
 include_directories("inc")
 
 ##### Compiler, Flags, Optimizations, ... #####
