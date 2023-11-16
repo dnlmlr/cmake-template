@@ -1,0 +1,21 @@
+---
+BasedOnStyle: LLVM
+
+# Max 100 chars / lines
+ColumnLimit: 100
+
+# Indent with 4 spaces
+IndentWidth: 4
+
+# Pointer alignment left
+PointerAlignment: Left
+DerivePointerAlignment: False
+
+# Inherit the linebreaks-before-braces style from the linux style 
+BreakBeforeBraces: Linux
+
+# Perform block indentation for long lists. For example
+# function_call(
+#   param1, param2, param3, param4
+# )
+AlignAfterOpenBracket: BlockIndent
